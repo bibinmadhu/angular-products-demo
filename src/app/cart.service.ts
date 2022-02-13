@@ -21,6 +21,7 @@ export class CartService {
 
   clearCart() {
     this.items = [];
+    return this.items;
   }
 
   getShippingPrices() {
