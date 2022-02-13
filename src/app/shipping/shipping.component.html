@@ -1,0 +1,4 @@
+<div class="cart-item" *ngFor="let s of shippingCosts | async">
+  <span> {{ s.type }}</span>
+  <span> {{ s.price | currency }}</span>
+</div>
